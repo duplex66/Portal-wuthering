@@ -1,0 +1,293 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+    justify-content: center;
+}
+body{
+    overflow-x: hidden;
+    
+    
+}
+
+/*1 parte*/
+
+
+.cabeca{
+    background-image: url("https://cdn1.epicgames.com/spt-assets/c1586295960b46f88bbfeec32c199e0e/wuthering-waves-8mncy.jpg");
+    height: 100vh;
+    position: relative;
+}
+.container{
+    display: flex;
+    background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
+}
+
+.descricao{
+    text-align: center;
+    text-decoration: double;
+    color: aliceblue;
+    border: 10px;
+}
+.lista{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    font-size: 25px;
+}
+.gif{
+    position: relative;
+    top: 100px;
+}
+.img-bild{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-bild h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(153, 157, 161);
+}
+.img-bild ol{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    justify-content: space-between;
+}
+.img-bild ol li{
+    width: 400px;
+    color: aliceblue;
+    border: 2px solid rgb(244, 244, 18);
+    padding: 7px;
+}
+.img-bild img{
+    width: 100%;
+}
+.img-bild ol li p{
+
+}
+
+
+
+
+/*2 parte*/
+
+
+
+
+
+section {  
+    display: flex;
+    background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
+}
+
+
+section .img-char{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+section .img-char ol li {
+    width: 400px;
+    color: aliceblue;
+    border: 2px solid rgba(222, 251, 2, 0.867);
+    padding: 7px;
+}
+section .descricao{
+    text-align: center;
+    text-decoration: double;
+    color: aliceblue;
+    border: 10px;
+}
+section .lista{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    font-size: 25px;
+}
+section .img-char ol{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    justify-content: space-between;
+    
+}
+section .img-char img{
+    width: 100%;
+    
+}
+
+/*epic*/
+.epic{
+        display: flex;
+        background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
+}
+.descricao{
+    text-align: center;
+    color: aliceblue;
+    border: 10px;
+}
+.lista{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    font-size: 25px;
+}.epic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.epic h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(153, 157, 161);
+}
+.epic ol{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    justify-content: space-between;
+}
+.epic ol li{
+    width: 400px;
+    color: aliceblue;
+    border: 2px solid rgb(244, 18, 210);
+    padding: 7px;
+}
+.epic img{
+    width: 100%;
+}
+
+
+
+
+/*3parte*/
+
+
+
+
+section .outros{  
+    display: flex;
+    background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
+}
+section .outros img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section .outros ol li {
+    width: 400px;
+    color: aliceblue;
+    border: 2px solid rgb(236, 14, 243);
+    padding: 7px;
+}
+section .descricao{
+    text-align: center;
+    text-decoration: double;
+    color: aliceblue;
+    border: 10px;
+}
+section .lista{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    font-size: 25px;
+}
+section .outros ol{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    justify-content: space-between;
+    
+}
+section .outros img{
+    width: 100%;
+}
+
+/*vazamentos*/
+
+.vazamentos h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(153, 157, 161);
+}
+.vazamentos-wu img{
+    width:20%;
+    top: 200px;
+    margin: 20px;
+    justify-content: space-between;
+}
+.color-img{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+
+
+.rotas-de-farm{
+    display: flex;
+    background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
+    flex-wrap: wrap;
+}
+
+
+.rotas-de-farm h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(153, 157, 161);
+    width: 100%;
+}
+.rotas-de-farm img{
+    width:20%;
+    top: 150px;
+    margin: 20px;
+    justify-content: space-between;
+}
+.color-img{
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
