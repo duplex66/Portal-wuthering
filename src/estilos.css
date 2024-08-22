@@ -7,13 +7,9 @@
 }
 body{
     overflow-x: hidden;
-    
-    
 }
 
 /*1 parte*/
-
-
 .cabeca{
     background-image: url("https://cdn1.epicgames.com/spt-assets/c1586295960b46f88bbfeec32c199e0e/wuthering-waves-8mncy.jpg");
     height: 100vh;
@@ -74,14 +70,7 @@ body{
 }
 
 
-
-
 /*2 parte*/
-
-
-
-
-
 section {  
     display: flex;
     background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
@@ -171,13 +160,7 @@ section .img-char img{
 }
 
 
-
-
 /*3parte*/
-
-
-
-
 section .outros{  
     display: flex;
     background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
@@ -236,9 +219,6 @@ section .outros img{
     color: aliceblue;
     text-align: center;
 }
-
-
-
 
 
 .rotas-de-farm{
