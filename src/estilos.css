@@ -17,7 +17,9 @@ body{
 }
 .container{
     display: flex;
+    width: 100%;
     background-image: url(https://images8.alphacoders.com/131/1318047.jpg);
+    justify-content: space-around;
 }
 
 .descricao{
@@ -248,6 +250,14 @@ section .outros img{
     text-align: center;
     
 }
+@media screen and (max-width: 768px){
+  .container{
+    width: 100%;
+    flex-direction: column;
+  }
+}
+    
+
 
 
 
